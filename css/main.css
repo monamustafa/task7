@@ -1,0 +1,330 @@
+:root {
+    --main-color: #f15322;
+    --whiteColor: #ecf0f1;
+    --blackColor: #191b20;
+}
+
+h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.icon {
+    color: var(--main-color);
+    padding: 0 1% 0 0;
+}
+
+.HeadingBorder {
+    margin: 2% 0;
+    border-top: 2px solid #2d3436;
+    width: 85px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.LearnMore{
+
+    margin-top: 2%;
+}
+
+
+.Link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 11px 38px;
+    height: 50px;
+    color: var(--whiteColor);
+    border: 2px solid var(--main-color);
+    background-color: var(--main-color);
+    resize: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.Link:hover {
+    background-color: #ca441c;
+    border: 2px solid #ca441c;
+    color: var(--whiteColor);
+}
+
+/* --------------------  Top  Bar-------------------------------- */
+.TopBar {
+    padding: 10px 0;
+}
+
+.TopBar a {
+    text-decoration: none;
+    color: var(--blackColor);
+}
+
+.TopBar a:hover {
+    color: var(--main-color);
+}
+
+.TopBar .icon {
+    padding: 0 10px 0 3%;
+
+}
+
+/* ------------------- Middle Bar----------------------------- */
+.MiddleBar {
+    background-color: var(--main-color);
+    color: var(--whiteColor);
+    padding: 1% 0 1px;
+    cursor: pointer;
+}
+
+.MiddleBar .icon {
+    padding: 0 0 1%;
+    font-size: 30px;
+    color: var(--blackColor);
+}
+
+.MiddleBar h3 {
+    font-size: 28px;
+    line-height: 5px;
+}
+
+.MiddleBar p {
+    font-size: 15px;
+}
+
+/* --------------------------------------------------
+------------------- Home-----------------------
+------------------------------------------------------- */
+
+.Home .carousel .carousel-inner {
+    height: 550px;
+}
+
+.Home .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+}
+
+.Home .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 20%;
+    left: 3%;
+    right: 100%;
+    width: 50%;
+    text-align: start;
+    color: var(--whiteColor);
+
+}
+
+.Home .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 800;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.Home .carousel .carousel-inner .carousel-item .carousel-caption h5:hover {
+    color: var(--main-color);
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: var(--main-color);
+}
+
+.Home .carousel .carousel-inner .carousel-item .carousel-caption p {
+    margin-bottom: 5%;
+}
+
+.Home .carousel .carousel-inner .carousel-item .carousel-caption .RequestLink {
+    padding: 15px 40px;
+    text-decoration: none;
+    color: var(--whiteColor);
+    border: 1px solid var(--whiteColor);
+}
+
+.Home .carousel .carousel-inner .carousel-item .carousel-caption .RequestLink:hover {
+    background-color: var(--whiteColor);
+    color: var(--main-color);
+}
+
+.Home .RequestAQuote {
+    bottom: 12%;
+    left: 65%;
+    top: 10%;
+    right: 6%;
+    background-color: var(--blackColor);
+    opacity: 0.8;
+    padding: 2%;
+    color: var(--whiteColor);
+
+}
+
+.Home .RequestAQuote form input {
+    display: block;
+    margin-top: 2%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: var(--whiteColor);
+    resize: none;
+}
+
+.Home .RequestAQuote form select {
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid var(--whiteColor);
+    background-color: var(--whiteColor);
+    resize: none;
+}
+.Home .RequestAQuote form select option {
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid var(--whiteColor);
+    resize: none;  
+}
+.Home .RequestAQuote form input[type=submit] {
+    box-sizing: border-box;
+    resize: none;
+    padding: 12px 20px;
+    font-weight: 700;
+    height: 50px;
+    color: var(--whiteColor);
+    border: 2px solid var(--main-color);
+    background-color: var(--main-color);
+    resize: none;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+.Home .RequestAQuote form input[type=submit]:hover {
+    background-color: #ca441c;
+    border: 2px solid #ca441c;
+    color: var(--whiteColor);
+}
+
+/* =============================WhoWeAre======================================= */
+.WhoWeAre {
+    margin: 5% 0;
+}
+
+/* =============================WhyChooseUs======================================= */
+.WhyChooseUs {
+    margin: 5% 0;
+    padding: 7% 2%;
+    color: var(--whiteColor);
+    background-color: var(--blackColor);
+    clip-path: polygon(0 3%, 44% 3%, 45% 0, 100% 0, 100% 96%, 65% 96%, 63% 100%, 0 100%);
+}
+
+.WhyChooseUs .HeadingBorder {
+    border-color: var(--whiteColor);
+}
+
+.WhyChooseUs .icon {
+    color: var(--main-color);
+    font-size: 55px;
+    padding-right: 5%;
+}
+
+.WhyChooseUs .WhyChooseUsPart {
+    box-sizing: border-box;
+    padding: 1% 1% 2% 3%;
+}
+/* ==================================OurServices================================================= */
+.OurServices{
+    margin: 5% 0;
+    
+}
+.OurServices img{
+    width: 100%;
+    height: 100%;
+    padding: 3% 1%;
+}
+.OurServices .services{
+    color: var(--whiteColor);
+    bottom: 34px;
+    left: 15px;
+    clip-path: polygon(0 0, 100% 0, 74% 145%, 0% 100%);
+    padding: 1% 9% 1% 3% ;
+    background-color: var(--main-color);
+    
+}
+.OurServices .services .icon{
+    color: var(--whiteColor);
+    visibility: hidden;
+    display: inline;
+    padding-right: 10px;
+}
+.OurServices .services:hover .icon{
+    visibility: visible;
+}
+.OurServices .services:hover{
+    padding: 1% 9% 1% 15%;
+}
+
+.OurServices  .LearnMore .Link{
+    
+    background-color: transparent;
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+.OurServices  .LearnMore .Link:hover{
+    background-color: var(--main-color);
+    color: var(--whiteColor);
+}
+
+.LatestNews{
+    margin: 2% 0;
+}
+.LatestNews img{
+    width: 100%;
+    image-rendering: pixelated;
+    
+
+}
+.LatestNews h5{
+    color: var(--main-color);
+}
+.LatestNews p{
+    font-size: 15px;
+}
+.LatestNews .icon{
+    color: var(--blackColor);
+    opacity: 0.6;
+}
+/* +========================Testimonials========================================================== */
+.Testimonials{
+    padding: 9% 0;
+    color: var(--whiteColor);
+background-color: var(--blackColor);
+clip-path: polygon(0 3%, 44% 3%, 45% 0, 100% 0, 100% 96%, 65% 96%, 63% 100%, 0 100%);
+}
+.Testimonials .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.Testimonials .carousel-indicators{
+    margin:5%;
+    top: 100%;
+}
+footer{
+    margin: 2% 0;
+}
+footer .logo .icon{
+    font-size: 40px;
+}
+footer .logo h3{
+    font-weight: 700;
+    font-size: 35px;
+}
+footer .SocialMedia .icon{
+    margin: 1% 0;
+    color: #2d343696;
+}
+footer .footer{
+    opacity: 0.8;
+}
